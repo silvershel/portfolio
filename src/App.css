@@ -1,0 +1,7 @@
+.centered {
+  height: 100vh; /* fits all content to screen height */
+  display: flex; /* flexbox */
+  justify-content: center; /* content horizontal alighment */
+  align-items: center; /* content vertical alighment */
+  height: 100vh; /* fits content to screen height */
+}
