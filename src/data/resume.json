@@ -1,0 +1,111 @@
+{
+    "header": {
+        "name": "Shelli Silverstein",
+        "title": "Software Engineer & Designer",
+        "description": "Passionate about developing well-structured software and dynamic digital experiences.",
+        "location": "Alexandria, VA",
+        "contact": {
+            "phone": "570-332-1713",
+            "email": "silverstein.shelli@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/silvershel",
+            "github": "https://github.com/silvershel",
+            "website": "https://www.silvershel.com"
+        }
+    },
+    "skills": [
+        {
+            "title": "Languages & Frameworks",
+            "skills": ["Flask", "JavaScript", "Python", "React"]
+        },
+        {
+            "title": "Databases",
+            "skills": ["PostgreSQL", "SQLite"]
+        },
+        {
+            "title": "Deployment Platforms",
+            "skills": ["Heroku", "Render"]
+        },
+        {
+            "title": "Testing Libraries",
+            "skills": ["Jest", "Pytest", "React Testing Library"]
+        },
+        {
+            "title": "Web Development & UI",
+            "skills": ["Balsamiq", "CSS", "Figma", "HTML", "Semantic UI"]
+        },
+        {
+            "title": "Design & Creative",
+            "skills": ["Adobe Creative Suite (Illustrator, Photoshop, InDesign)"]
+        }
+    ],
+    "projects": [
+        {
+            "title": "On The Lamb",
+            "links": {
+                "github": "https://github.com/silvershel/onthelamb",
+                "demo": "https://vimeo.com/1050155065/4a89eb2137?share=copy"
+            },
+            "description": {
+                "main": "Events platform where yarn crafters and fiber businesses can create and promote events to build community and foster creativity.",
+                "backend": "RESTful API with Python and Flask that handles event management, user authentication, and data storage.",
+                "frontend": "Dynamic and responsive user interface using React and Semantic UI, improving user interaction and accessibility.",
+                "design": "Created custom illustrations and unique branding elements, delivering an engaging and visually cohesive experience."
+            }
+        }
+    ],
+    "experience": [
+        {
+            "company": "Spincycle Yarns",
+            "location": "Bellingham, WA",
+            "role": "Freelance Developer",
+            "start": "January 2025",
+            "end": "Present",
+            "responsibilities": [
+                "Customizes and maintains Shopify theme to enhance user experience and improve site navigation.",
+                "Makes recommendations on which features to implement to enhance usability for shop managers."
+            ]
+        },
+        {
+            "company": "Shelli Can",
+            "location": "Alexandria, VA",
+            "role": "Owner",
+            "start": "2017",
+            "end": "Present",
+            "responsibilities": [
+                "Founded and grew a successful retail and wholesale business designing tools and novelties for fiber artists and other crafters.",
+                "Manages all aspects of the business including design, production, and e-commerce.",
+                "Manages social media campaigns, growing the brand's following to over 20K with continued engagement."
+            ]
+        },
+        {
+            "company": "Fathom Creative",
+            "location": "Washington, DC",
+            "role": "Senior Graphic Designer",
+            "start": "2009",
+            "end": "2011",
+            "responsibilities": [
+                "Developed concepts and executed designs for various printed and digital collateral.",
+                "Clients included The Brookings Institution of Executive Education, The National Park Service, The Office of Compliance, and The Federal Trade Commission.",
+                "Deliverables included branding packages, annual reports, internal template decks, websites, and both print and web advertising campaigns."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Flatiron School",
+            "degree": "Computer Software Engineering",
+            "location": "Virtual",
+            "start": "2024",
+            "end": "2025",
+            "details": "Full-stack bootcamp focusing on Python, Flask, React, JavaScript, and SQL."
+        },
+        {
+            "institution": "School of Visual Arts",
+            "degree": "BFA Graphic Design",
+            "location": "New York, NY",
+            "start": "2003",
+            "end": "2007",
+            "details": "Graduated with a top portfolio score, specializing in 3D and visual design."
+        }
+    ]
+}
