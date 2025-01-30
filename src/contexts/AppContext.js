@@ -2,7 +2,7 @@ import React, { createContext, useState, useEffect } from 'react';
 export const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
-    [details, setDetails] = useState([])
+    const [details, setDetails] = useState([])
 
     useEffect(() => {
         fetch('../data/resume.json')
