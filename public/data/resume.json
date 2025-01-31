@@ -3,7 +3,7 @@
         "first_name": "Shelli",
         "last_name": "Silverstein",
         "title": "Software Engineer & Designer",
-        "description": "I’m a Full-Stack Developer passionate about building well-structured software and delivering dynamic digital experiences. I specialize in React for frontend development, and relational databases using Python with Flask for backend development. Complemented by a rich background in illustration and design, I'm able to take ideas from concept to execution with a unified vision.",
+        "description": "I’m a Full-Stack Developer passionate about building well-structured software and delivering dynamic digital experiences. With a solid foundation in Software Engineering, I specialize in React for frontend development and relational databases using Python with Flask for backend. Complemented by a rich background in Design and Illustration, I'm able to contribute both technical and creative skills, taking products from concept to execution with a unified vision.",
         "prompt": "Want to learn more? Use the links below.",
         "location": "Alexandria, VA",
         "contact": {
@@ -12,7 +12,8 @@
             "linkedin": "https://www.linkedin.com/in/silvershel",
             "github": "https://github.com/silvershel",
             "website": "https://www.silvershel.com"
-        }
+        },
+        "cv": "/data/silvershel_resume.pdf"
     },
     "skills": [
         {
@@ -50,9 +51,9 @@
             },
             "description": {
                 "main": "Events platform where yarn crafters and fiber businesses can create and promote events to build community and foster creativity.",
-                "backend": "RESTful API with Python and Flask that handles event management, user authentication, and data storage.",
-                "frontend": "Dynamic and responsive user interface using React and Semantic UI, improving user interaction and accessibility.",
-                "design": "Created custom illustrations and unique branding elements, delivering an engaging and visually cohesive experience."
+                "backend": "RESTful API with Python and Flask.",
+                "frontend": "React, Semantic UI & CSS",
+                "deployment": "List deployment platform."
             }
         }
     ],
@@ -64,7 +65,8 @@
             "start": "January 2025",
             "end": "Present",
             "responsibilities": [
-                "Customizes and maintains Shopify theme to enhance user experience and improve site navigation for shop managers."
+                "Customizes and maintains Shopify theme to enhance user experience and improve site navigation.",
+                "Makes recommendations on which features to implement to enhance usability for shop managers."
             ]
         },
         {
@@ -74,7 +76,9 @@
             "start": "2017",
             "end": "Present",
             "responsibilities": [
-                "Founded and manages a successful retail and wholesale business specializing in tools and novelties for fiber artists and other crafters."
+                "Founded and grew a successful retail and wholesale business designing tools and novelties for fiber artists and other crafters.",
+                "Manages all aspects of the business including design, production, logistics, and e-commerce.",
+                "Manages social media campaigns, growing the brand's following to over 20K with continued engagement."
             ]
         },
         {
@@ -84,7 +88,9 @@
             "start": "2009",
             "end": "2011",
             "responsibilities": [
-                "Developed print & digital design concepts including branding, reports, and ad campaigns for various government organizations and high-profile institutions."
+                "Developed print & digital designs for various government organizations and high-profile institutions.",
+                "Clients include The Brookings Institution of Executive Education, The National Park Service, The Office of Compliance, and The Federal Trade Commission.",
+                "Deliverables include branding packages, annual reports, internal template decks, websites, and both print and web advertising campaigns."
             ]
         }
     ],
@@ -95,10 +101,10 @@
             "location": "Virtual",
             "start": "2024",
             "end": "2025",
-            "details": "Full-stack bootcamp focusing on Python, Flask, React, JavaScript, and SQL."
+            "details": "Full-stack engineering bootcamp focusing on JavaScript, React, SQL, Python, and Flask with emphasis on relational databases."
         },
         {
-            "institution": "The School of Visual Arts",
+            "institution": "SVA",
             "degree": "BFA Graphic Design",
             "location": "New York, NY",
             "start": "2003",

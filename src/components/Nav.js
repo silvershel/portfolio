@@ -18,6 +18,9 @@ function Nav() {
             <Link className='item' to='education' smooth={true} duration={500}>
                 Education
             </Link>
+            <Link className='item' to='contact' smooth={true} duration={500}>
+                Contact
+            </Link>
         </div>
         
     )
