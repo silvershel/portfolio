@@ -17,7 +17,7 @@ function Experience() {
                 {experienceSet.map((set, index) => (
                     <div className='ui row' key={index}>
                         {set.map((job) => (
-                           <div className='ui four wide column'>
+                           <div key={job.role} className='ui four wide column'>
                                 <h2>{job.role}</h2>
                                 <h3>{job.company}<br></br>{job.start} - {job.end}</h3>
                                 {job.responsibilities.map((responsibility, index) => (
