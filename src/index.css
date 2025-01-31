@@ -5,11 +5,15 @@ h1, h2, h3, h4, h5 {
   font-weight: 500 !important;
   font-style: normal;
   letter-spacing: .5px !important;
+  line-height: 1.25 !important;
   /* color: #283747 !important; */
+  color: #34495e !important;
 }
 
 h1 {
-  font-size: 44px !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 68px !important;
 }
 
 h2 {
@@ -17,7 +21,7 @@ h2 {
 }
 
 h3 {
-  font-size: 28px !important;
+  font-size: 24px !important;
 }
 
 h4 {
@@ -29,19 +33,65 @@ h5 {
 }
 
 p {
-  font-size: 16px !important;
+  font-size: 18px !important;
+  letter-spacing: .25px !important;
+  color: #34495e !important;
 }
+
+.ui.text.menu .item {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  color: #34495e !important;
+}
+
+:hover, .ui.text.menu .item:hover, .icon:hover {
+  color: #935116 !important;
+}
+
+:active, .ui.text.menu .item:active {
+  color:blue !important;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  color: #34495e !important;
+}
+
 
 /* PAGE STYLES */
-.segment {
-  background-color: #fbf7f6 !important;
+body {
+  background-color: #F4F2EE !important;
 }
 
-/* STICKY */
+/* CONTAINER STYLES */
+.segment {
+  display: flex; /* Enable Flexbox */
+  justify-content: center; /* content horizontal alighment */
+  align-items: center; /* content vertical alighment */
+  height: 100vh; /* fits content to screen height */
+}
+
+@media (max-width: 768px) {
+  .segment {
+    height: auto;
+  }
+}
+
+.row {
+  justify-content: center !important; /* content horizontal alighment */
+}
+
+/* NAVIGATION */
 .sticky-nav {
   position: sticky;
   top: 0;
-  z-index: 1000; /* Optional: Ensure it stays on top */
-  background-color: #fbf7f6; /* Optional: to ensure it has a solid background */
+  z-index: 1000;
   width: 100%;
+  justify-content: center; /* content horizontal alighment */
+  background-color: #F4F2EE !important;
+
 }

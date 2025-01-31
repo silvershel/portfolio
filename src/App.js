@@ -5,17 +5,20 @@ import Experience from './components/Experience';
 import Nav from './components/Nav';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import { AppProvider } from './contexts/AppContext';
 
 function App() {
   return (
-    <div className='ui center aligned basic segment'>
-      <Nav />
-      <Skills />
-      <Projects />
-      <Experience />
-      <Education />
-      <About />
-    </div>
+    <AppProvider>
+      <div>
+        <Nav />
+        <About />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Education />
+      </div>
+    </AppProvider>
   );
 }
 

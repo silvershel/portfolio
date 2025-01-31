@@ -1,22 +1,28 @@
+import React, { useContext } from 'react';
+import { AppContext } from '../contexts/AppContext';
+
 function Education() {
+    const { education, arraySet } = useContext(AppContext);
+
+    const educationSets = arraySet(education, 2);
+
     return (
         <div id='education' className='ui very padded basic segment'>
             <div className='ui center aligned stackable grid'>
                 <div className='ui row'>
                     <h1>Education</h1>
                 </div>
-                <div className='ui row'>
-                    <div className='ui six wide column'>
-                        <h3>The Flatiron School</h3>
-                        <h4>Computer Software Engineering | 2024 - 2025</h4>
-                        <p>Full-stack bootcamp focusing on Python, Flask, React, JavaScript, and SQL.</p>
+                {educationSets.map((chunk, index) => (
+                    <div className='ui row' key={index}>
+                        {chunk.map((school) => (
+                            <div className='ui six wide column' key={school.institution}>
+                                <h2>{school.institution}</h2>
+                                <h3>{school.degree} | {school.start} - {school.end}</h3>
+                                <p>{school.details}</p>
+                            </div>
+                        ))}
                     </div>
-                    <div className='ui six wide column'>
-                        <h3>The School of Visual Arts</h3>
-                        <h4>BFA Graphic Design | 2003 - 2007</h4>
-                        <p>Graduated with a top portfolio score specializing in 3D design.</p>
-                    </div>
-                </div>
+                ))}
             </div>
         </div>
     )
