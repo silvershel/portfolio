@@ -12,7 +12,7 @@ function Experience() {
                 </div>
                     {experience.map((job) => (
                         <div className='ui row' key={job.company}>
-                            <div className='ui eight wide column'>
+                            <div className='ui seven wide column'>
                                 <h2>{job.company}</h2>
                                 <h3>{job.role} | {job.location} | {job.start} - {job.end}</h3>
                                 {job.responsibilities.map((responsibility, index) => (

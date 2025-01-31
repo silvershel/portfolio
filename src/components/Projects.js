@@ -13,7 +13,7 @@ function Projects() {
                 <div className='ui row'>
                     {projects.map((project) => (
                         <div key={project.title} className='ui four wide column'>
-                            <img src={project.image} className='ui medium image'></img>
+                            <img src={project.image} className='ui  image'></img>
                             <h2>{project.title}</h2>
                             <p>{project.description.main}</p>
                             <a href={project.links.repo} target="_blank" rel="noopener noreferrer">

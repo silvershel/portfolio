@@ -15,7 +15,7 @@ function Education() {
                 {educationSets.map((chunk, index) => (
                     <div className='ui row' key={index}>
                         {chunk.map((school) => (
-                            <div className='ui six wide column' key={school.institution}>
+                            <div className='ui five wide column' key={school.institution}>
                                 <h2>{school.institution}</h2>
                                 <h3>{school.degree} | {school.start} - {school.end}</h3>
                                 <p>{school.details}</p>

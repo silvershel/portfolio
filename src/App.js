@@ -1,7 +1,9 @@
 import './App.css';
 import About from './components/About';
+import ComingSoon from './components/ComingSoon';
 import Education from './components/Education';
 import Experience from './components/Experience';
+import Footer from './components/Footer';
 import Nav from './components/Nav';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
@@ -11,14 +13,12 @@ function App() {
   return (
     <AppProvider>
       <div>
-        
         <About />
         <Nav />
         <Skills />
         <Projects />
         <Experience />
         <Education />
-        <Nav />
       </div>
     </AppProvider>
   );

@@ -15,7 +15,7 @@ function Skills() {
                 {skillsSets.map((set, index) => (
                     <div className='ui row' key={index}>
                         {set.map((skill) => (
-                            <div className='ui four wide column' key={skill.title}>
+                            <div className='ui three wide column' key={skill.title}>
                                 <h2>{skill.title}</h2>
                                 {skill.skills.map((skill, index) => (
                                     <p key={index}>{skill}</p>

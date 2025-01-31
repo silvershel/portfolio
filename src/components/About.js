@@ -13,19 +13,20 @@ function About() {
                 <div className='ui row'>
                     <div className='ui seven wide column'>
                         <header>
-                            <h1>{header.name}</h1>
+                            <h1>Hi, I'm {header.first_name}.</h1>
                             <h2>{header.title}</h2>
                         </header>
                         <p>{header.description}</p>
+                        <p>{header.prompt}</p>
                         <div className='social-icons'>
                             <a href={linkedin} target='_blank' rel='noopener noreferrer' className='icon'>
-                                <i className='big linkedin icon'></i>
+                                <i className='huge linkedin icon'></i>
                             </a>
                             <a href={github} target='_blank' rel='noopener noreferrer' className='icon'>
-                                <i className='big github icon'></i>
+                                <i className='huge github icon'></i>
                             </a>
                             <a href={email}  target='_blank' rel='noopener noreferrer' className='icon'>
-                                <i className='big envelope icon'></i>
+                                <i className='huge envelope icon'></i>
                             </a>
                         </div>
                     </div>

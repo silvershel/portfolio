@@ -1,8 +1,10 @@
 {
     "header": {
-        "name": "Shelli Silverstein",
+        "first_name": "Shelli",
+        "last_name": "Silverstein",
         "title": "Software Engineer & Designer",
-        "description": "I’m a Full-Stack Developer passionate about building well-structured software and delivering dynamic digital experiences. I specialize in React for dynamic frontends and relational databases using Python with Flask for efficient backends. Complemented by a rich background in illustration, design, and marketing, my ability to contribute to both the technical and creative sides of a project allows me to take ideas from concept to execution with a unified vision.",
+        "description": "I’m a Full-Stack Developer passionate about building well-structured software and delivering dynamic digital experiences. I specialize in React for frontend development, and relational databases using Python with Flask for backend development. Complemented by a rich background in illustration and design, I'm able to take ideas from concept to execution with a unified vision.",
+        "prompt": "Want to learn more? Use the links below.",
         "location": "Alexandria, VA",
         "contact": {
             "phone": "570-332-1713",
@@ -18,7 +20,7 @@
             "skills": ["Flask", "JavaScript", "Python", "React"]
         },
         {
-            "title": "Databases",
+            "title": "Database Management",
             "skills": ["PostgreSQL", "SQLite"]
         },
         {
@@ -26,16 +28,16 @@
             "skills": ["Heroku", "Render"]
         },
         {
-            "title": "Testing Libraries",
+            "title": "Testing Libraries and Tools",
             "skills": ["Jest", "Pytest", "React Testing Library"]
         },
         {
             "title": "UI and Web Development",
-            "skills": ["Balsamiq", "CSS", "Figma", "HTML", "Semantic UI"]
+            "skills": ["HTML & CSS", "Semantic UI"]
         },
         {
             "title": "Design and Creative",
-            "skills": ["Adobe Creative Suite (Illustrator, Photoshop, InDesign)"]
+            "skills": ["Adobe Creative Suite", "Balsamiq", "Figma"]
         }
     ],
     "projects": [
@@ -101,7 +103,7 @@
             "location": "New York, NY",
             "start": "2003",
             "end": "2007",
-            "details": "Graduated with a top portfolio score, specializing in 3D and visual design."
+            "details": "Graduated with a top portfolio score specializing in 3D concepts and visual storytelling."
         }
     ]
 }
