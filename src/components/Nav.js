@@ -19,6 +19,7 @@ function Nav() {
                 Education
             </Link>
         </div>
+        
     )
 }
 export default Nav;

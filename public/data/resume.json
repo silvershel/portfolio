@@ -2,7 +2,7 @@
     "header": {
         "name": "Shelli Silverstein",
         "title": "Software Engineer & Designer",
-        "description": "I’m a Full-Stack Developer passionate about building well-structured software and delivering dynamic digital experiences. With a solid foundation in software engineering, I specialize in React for dynamic frontends and Python with Flask for efficient backends. Complemented by a rich background in illustration, design, and marketing, my ability to contribute to both the technical and creative sides of a project allows me to take ideas from concept to execution with a unified vision.",
+        "description": "I’m a Full-Stack Developer passionate about building well-structured software and delivering dynamic digital experiences. I specialize in React for dynamic frontends and relational databases using Python with Flask for efficient backends. Complemented by a rich background in illustration, design, and marketing, my ability to contribute to both the technical and creative sides of a project allows me to take ideas from concept to execution with a unified vision.",
         "location": "Alexandria, VA",
         "contact": {
             "phone": "570-332-1713",
@@ -41,9 +41,9 @@
     "projects": [
         {
             "title": "On The Lamb",
-            "image": "</images/onthelamb-login-screenshot.jpg",
+            "image": "/images/onthelamb-login-screenshot.jpg",
             "links": {
-                "github": "https://github.com/silvershel/onthelamb",
+                "repo": "https://github.com/silvershel/onthelamb",
                 "demo": "https://vimeo.com/1050155065/4a89eb2137?share=copy"
             },
             "description": {

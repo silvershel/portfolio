@@ -11,7 +11,7 @@ function About() {
         <div id='about' className='ui very padded basic segment'>
             <div className='ui stackable grid'>
                 <div className='ui row'>
-                    <div className='ui eight wide column'>
+                    <div className='ui seven wide column'>
                         <header>
                             <h1>{header.name}</h1>
                             <h2>{header.title}</h2>

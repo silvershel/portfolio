@@ -6,23 +6,33 @@ function Projects() {
 
     return (
         <div id='projects' className='ui very padded basic segment'>
-            <h1>Projects</h1>
-            <img src={projects.image} className='ui image'></img>
-
-            {projects.map((project) => (
-                <div>
-                    
+            <div className='ui center aligned stackable grid'>
+                <div className='ui row'>
+                    <h1>Projects</h1>
                 </div>
-            ))}
-            <h2>On The Lamb</h2>
-            <button className='ui button'>
-                <i className='icon github'></i>
-                Repo
-            </button>
-            <button className='ui button'>
-                <i className='icon vimeo'></i>
-                Demo
-            </button>
+                <div className='ui row'>
+                    {projects.map((project) => (
+                        <div key={project.title} className='ui four wide column'>
+                            <img src={project.image} className='ui medium image'></img>
+                            <h2>{project.title}</h2>
+                            <p>{project.description.main}</p>
+                            <a href={project.links.repo} target="_blank" rel="noopener noreferrer">
+                                <button className='large ui button '>
+                                    <i className='icon github'></i>
+                                    Repo
+                                </button>
+
+                            </a>
+                            <a href={project.links.demo} target="_blank" rel="noopener noreferrer">
+                                <button className='large ui button'>
+                                    <i className='icon vimeo'></i>
+                                    Demo
+                                </button>
+                            </a>
+                        </div>
+                    ))}
+                </div>
+            </div>
         </div>
     )
 }
