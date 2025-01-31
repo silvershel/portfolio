@@ -20,7 +20,7 @@ function App() {
         <Projects />
         <Experience />
         <Education />
-        <Contact />
+        <Footer />
       </div>
     </AppProvider>
   );

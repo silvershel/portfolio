@@ -1,10 +1,13 @@
-function Footer() {
+import { Link, animateScroll as scroll } from 'react-scroll';
 
+function Nav() {
     return (
         <div className='ui text menu sticky-footer'>
-            <p>Built using React and Semantic UI</p>
+            <Link className='item' to='about' smooth={true} duration={500}>
+                Contact
+            </Link>
         </div>
         
     )
 }
-export default Footer;
+export default Nav;

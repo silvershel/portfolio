@@ -75,7 +75,7 @@ body {
 /* CONTAINER STYLES */
 .segment {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   height: 100vh;
 }
@@ -106,7 +106,7 @@ body {
 }
 
 /* MEDIA STYLES */
-@media (max-width: 768px) {
+@media (max-width: 768px) and (max-width: 460px) and (max-width: 768px) {
   .segment {
     height: auto;
   }

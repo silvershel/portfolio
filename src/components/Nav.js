@@ -3,9 +3,6 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 function Nav() {
     return (
         <div className='ui text menu sticky-nav'>
-            <Link className='item' to='about' smooth={true} duration={500}>
-                About
-            </Link>
             <Link className='item' to='skills' smooth={true} duration={500}>
                 Skills
             </Link>
@@ -17,9 +14,6 @@ function Nav() {
             </Link>
             <Link className='item' to='education' smooth={true} duration={500}>
                 Education
-            </Link>
-            <Link className='item' to='contact' smooth={true} duration={500}>
-                Contact
             </Link>
         </div>
         

@@ -11,12 +11,12 @@ function Contact() {
         <div id='contact' className='ui very padded basic segment'>
             <div className='ui stackable grid'>
                 <div className='ui row'>
-                    <div className='ui twelve wide column'>
+                    <div className='ui eight wide column'>
                         <h1>Contact</h1>
                     </div>
                 </div>
                 <div className='ui row'>
-                    <div className='ui twelve wide column'>
+                    <div className='ui eight wide column'>
                         <div className='social-icons'>    
                             <a href={linkedin} target='_blank' rel='noopener noreferrer' className='icon'>
                                 <i className='huge linkedin icon'></i>
