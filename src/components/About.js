@@ -4,7 +4,8 @@ import { AppContext } from '../contexts/AppContext';
 function About() {
     const { header } = useContext(AppContext);
     const linkedin = header?.contact?.linkedin;
-    const github = header?.contact?.github;    
+    const github = header?.contact?.github;   
+    const blog = header?.contact?.blog;    
     const email = header?.contact?.email;
     
     return (
@@ -26,6 +27,9 @@ function About() {
                             </a>
                             <a href={github} target='_blank' rel='noopener noreferrer' className='icon'>
                                 <i className='huge github icon'></i>
+                            </a>
+                            <a href={blog} target='_blank' rel='noopener noreferrer' className='icon'>
+                                <i className='huge medium icon'></i>
                             </a>
                             <a href={email}  target='_blank' rel='noopener noreferrer' className='icon'>
                                 <i className='huge envelope icon'></i>

@@ -15,7 +15,7 @@ function Projects() {
                 <div className='ui row'>
                     {projects.map((project) => (
                         <div key={project.title} className='ui four wide column'>
-                            <img src={project.image} className='ui  image'></img>
+                            <img alt='' src={project.image} className='ui  image'></img>
                             <h2>{project.title}</h2>
                             <p>{project.description.main}</p>
                             <p><strong>Backend:</strong> {project.description.backend}</p>
